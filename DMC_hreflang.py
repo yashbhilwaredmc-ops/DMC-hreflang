@@ -43,7 +43,7 @@ def check_indexable(soup):
     return not (robots and 'noindex' in robots.get('content', '').lower())
 
 # ---- Streamlit UI ----
-st.title("🌍 Advanced Hreflang Analyzer (Web Version)")
+st.title("🌍 DMC Hreflang Analyzer (Web Version)")
 
 url_input = st.text_area("Enter URLs (one per line):")
 run_button = st.button("Analyze URLs")
